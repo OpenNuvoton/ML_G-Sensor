@@ -29,7 +29,7 @@ project by Jennifer Wang.
 - Use `magic_wand_start.ipynb` to convert to tflite & c++ file.
 
 ## 3. Inference code
-- [m467 g-sensor_magicwand](https://github.com/stanlytw/M467_MAGICWAND/tree/main/SampleCode/g-sensor_magicwand)
+- [m467 g-sensor_magicwand](https://github.com/OpenNuvoton/ML_M460_SampleCode/tree/master/SampleCode/NuMagicWand)
 
 
 
