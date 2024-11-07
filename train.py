@@ -171,9 +171,11 @@ def convert(model_path, train_data, model_type):
   
     # Convert the model to the TensorFlow Lite format with quantization
     converter = tf.lite.TFLiteConverter.from_keras_model(model)
-    #converter.optimizations = [tf.lite.Optimize.OPTIMIZE_FOR_SIZE]
     converter.optimizations = [tf.lite.Optimize.DEFAULT]
+    converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS_INT8, tf.lite.OpsSet.TFLITE_BUILTINS]
     converter.representative_dataset = _rep_dataset
+    converter.inference_input_type = tf.int8  # or tf.uint8
+    converter.inference_output_type = tf.int8  # or tf.uint8
     tflite_model = converter.convert()
     # Save the model to disk
     open("./generated_model/model_{}_quantized.tflite".format(model_type), "wb").write(tflite_model)

@@ -26,6 +26,9 @@ project by Jennifer Wang.
 ### 3. Test & Deployment
 - Use `magic_wand_start.ipynb` to convert to TFLite and C++ files.
 
+### 4. Vela Compiler (Optional)
+- If device supports ARM NPU, like U55, please use `vela\` to convert `*quantized.tflite`.
+
 ## 3. Inference code
 - [ML_M460_SampleCode](https://github.com/OpenNuvoton/ML_M460_SampleCode)
    - `tflu_magicwand`
