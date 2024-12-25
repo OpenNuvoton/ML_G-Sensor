@@ -30,9 +30,10 @@ project by Jennifer Wang.
 - If device supports ARM NPU, like U55, please use `vela\` to convert `*quantized.tflite`.
 
 ## 3. Inference code
-- [ML_M460_SampleCode](https://github.com/OpenNuvoton/ML_M460_SampleCode)
-   - `tflu_magicwand`
-   - `tflu_magicwand_sensor_collect`
+- The ML_SampleCode repositories are private. Please contact Nuvoton to request access to these sample codes. [Link](https://www.nuvoton.com/ai/contact-us/)
+  - [ML_M460_SampleCode (private repo)](https://github.com/OpenNuvoton/ML_M460_SampleCode)
+  - `tflu_magicwand`: Real-time inference
+  - `tflu_magicwand_sensor_collect`: Data collection firmware
 
 
 
