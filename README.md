@@ -15,7 +15,7 @@ project by Jennifer Wang.
 ## 2. Work Flow
 ### 1. Dataset
 - The dataset consists of accelerometer readings in three dimensions: x, y, and z, collected from various gestures. 
-- Users can collect their own data by running the code [m467 sensor_collect](https://github.com/OpenNuvoton/ML_M460_SampleCode/tree/master/SampleCode/numaker_IoT_m467_sensor_collect) on the m467 EVB.
+- Users can collect their own data by running the code [m467 tflu_magicwand_sensor_collect](https://github.com/OpenNuvoton/ML_M460_SampleCode/tree/master/SampleCode/MachineLearning/tflu_magicwand_sensor_collect) on the m467 EVB.
 - `magic_wand_start.ipynb` will assist you in collecting and preparing the data.
 ### 2. Training
 - Use `magic_wand_start.ipynb` to train the model locally.
